@@ -1,0 +1,38 @@
+.header-form {
+  border-radius: 50rem;
+  background: var(--black);
+  font-weight: 400;
+  font-size: 14rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 15rem 10rem;
+  &__input {
+    width: 100%;
+    border: 0;
+    border-radius: 50rem;
+    background: var(--black);
+    font-weight: 400;
+    font-size: 14rem;
+    color: var(--white);
+    width: 278rem;
+    @include desktop-small {
+      width: 100%;
+    }
+  }
+  &__input::placeholder {
+    color: var(--white);
+  }
+
+  &__btn {
+    border-radius: 50rem;
+    background: var(--black);
+    color: var(--white);
+  }
+}
+.btn {
+}
+.material-icons {
+}
+.header-ico {
+}

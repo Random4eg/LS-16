@@ -1,0 +1,64 @@
+.services {
+  cursor: pointer;
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 3fr);
+    grid-column-gap: 30rem;
+    grid-row-gap: 0rem;
+    @include tablet {
+      display: grid;
+      grid-template-columns: repeat(1, 3fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 0;
+      grid-row-gap: 30rem;
+    }
+  }
+  &__box :hover {
+    background-color: var(--hover);
+    color: var(--white);
+  }
+
+  &__item {
+    border-radius: 15rem;
+    background: var(--bgcolor);
+    text-align: center;
+    color: currentcolor;
+    padding: 46rem 26rem;
+  }
+  svg {
+    margin-bottom: 28rem;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 24rem;
+    color: var(--text);
+    color: currentcolor;
+    margin-bottom: 17rem;
+  }
+
+  &__desc {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16rem;
+    text-align: center;
+    color: var(--desc);
+    color: currentcolor;
+    margin-bottom: 17rem;
+  }
+
+  &__link {
+    font-family: var(--ff);
+    position: relative;
+    font-weight: 600;
+    font-size: 16rem;
+    color: var(--hover);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: currentcolor;
+  }
+}
+.services__ico {
+  position: absolute;
+  top: -2rem;
+}

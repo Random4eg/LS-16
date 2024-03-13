@@ -1,0 +1,44 @@
+html {
+  font-size: 1px;
+}
+
+body {
+  font-family: var(--ff);
+  font-size: 16rem;
+  padding: 0 20rem;
+  margin-inline: auto;
+}
+
+.container {
+  max-width: calc(1170rem - 40rem);
+  padding: 0 20rem;
+  margin-inline: auto;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  font-family: var(--ff);
+  border-radius: 50rem;
+}
+h2 {
+  font-family: var(--ff);
+  font-weight: 700;
+  font-size: 48rem;
+  color: var(--text);
+  text-align: center;
+  margin-top: 70rem;
+}
+.all__desc {
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 16rem;
+  text-align: center;
+  color: var(--text);
+  padding: 0 150rem;
+  margin-bottom: 123rem;
+  @include mobile {
+    padding: 10rem;
+  }
+}

@@ -1,0 +1,18 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --ff: "Work Sans", sans-serif;
+  --transition: 0.2s all ease-in-out;
+  --hover: #8842f0;
+  --bgcolor: #f9f1fe;
+  --white: #fff;
+  --black: #000;
+  --text: #262626;
+  --desc: #575757;
+  --gray: #6c6c6c;
+  scroll-behavior: smooth;
+}
