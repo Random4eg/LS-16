@@ -1,7 +1,7 @@
 .footer {
   max-width: 1440rem;
   background: var(--bgcolor);
-  margin-top: 135rem;
+
   margin-inline: auto;
   text-align: left;
   &__cont {
@@ -10,6 +10,8 @@
     grid-template-rows: repeat(1, 3fr);
     grid-column-gap: 107rem;
     grid-row-gap: 0rem;
+    padding-top: 106rem;
+    padding-bottom: 77rem;
 
     @include tablet {
       display: flex;
@@ -41,8 +43,12 @@
     font-weight: 600;
     font-size: 20rem;
   }
-
-  &__hour {
+  h4 {
+    font-weight: 600;
+    font-size: 20rem;
+  }
+  li {
+    padding-bottom: 15rem;
   }
 }
 .all {

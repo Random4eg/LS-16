@@ -273,7 +273,7 @@ h2 {
             -ms-flex-direction: column-reverse;
                 flex-direction: column-reverse;
         position: fixed;
-        width: 70%;
+        width: 80%;
         height: 100%;
         -ms-flex-direction: column;
             flex-direction: column;
@@ -333,7 +333,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15rem 10rem; }
+  padding: 13rem 10rem; }
   .header-form__input {
     width: 100%;
     border: 0;
@@ -363,7 +363,8 @@ h2 {
   border-radius: 10rem;
   padding: 77rem 20rem 83rem 20rem;
   text-align: center;
-  background: #1c1b1f; }
+  background: #1c1b1f;
+  margin-bottom: 135rem; }
   .join__title {
     font-family: var(--ff);
     font-weight: 700;
@@ -564,7 +565,6 @@ h2 {
 .footer {
   max-width: 1440rem;
   background: var(--bgcolor);
-  margin-top: 135rem;
   margin-inline: auto;
   text-align: left; }
   .footer__cont {
@@ -572,7 +572,9 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 3fr);
     grid-column-gap: 107rem;
-    grid-row-gap: 0rem; }
+    grid-row-gap: 0rem;
+    padding-top: 106rem;
+    padding-bottom: 77rem; }
     @media (max-width: 992px) {
       .footer__cont {
         display: -webkit-box;
@@ -605,5 +607,10 @@ h2 {
   .footer__contact {
     font-weight: 600;
     font-size: 20rem; }
+  .footer h4 {
+    font-weight: 600;
+    font-size: 20rem; }
+  .footer li {
+    padding-bottom: 15rem; }
 
 /*# sourceMappingURL=style.css.map */
